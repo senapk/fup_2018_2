@@ -1,3 +1,4 @@
+- Baixe a biblioteca do xpaint.h para sua máquina.
 - Descreva o que significa cada linha do programa oi.c
 - Faça seu desenho do Mickey.
 - Faça um desenho de Casinha.
