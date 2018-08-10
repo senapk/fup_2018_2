@@ -1,0 +1,32 @@
+# Aula s01e01
+
+- Valores
+    - Honestidade(vocês) e Justiça(eu)
+- Modelo de aula
+    - Participação em sala de aula
+    - Interativa
+    - Prática
+    - Atividades em dupla em sala de aula
+    - Assiduidade: não faz a atividade ou não participa, leva falta
+- Plágio
+    - Uma forma de corrupção estudantil
+    - Obter vantagem ilícita sobre o sistema de avaliação.
+    - Dizer que fez algo que não fez ou sabe algo que não sabe.
+    - Infringir as regras definidas pela atividade.
+    - Procurar pelas respostas de uma atividade e omitir isso.
+- Trabalhos
+    - vou avaliar os **relatórios**, nem sempre os códigos
+    - alguns podem ser feitos em dupla
+    - outros, obrigatoriamente individuais
+- Avaliação
+    - mini avaliações para acompanhamento quizenais (30 min)
+    - provas se necessário
+    - cada atividade ou prova tem um peso
+    - planilha de notas e repositórios
+- Material didático e ajuda
+    - exemplos em sala de aula - github atualizado toda aula
+    - gravação da aula
+    - apostilas
+- Entrega de material
+    - Moodle
+    - Git da disciplina
