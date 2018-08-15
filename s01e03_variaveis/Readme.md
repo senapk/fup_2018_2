@@ -1,0 +1,15 @@
+- Matéria
+    - Entender a diferença entre rvalue e lvalue
+    - lvalue(lugar) = rvalue(valor)
+    - A tabela de variáveis guarda variáveis, tipos e endereços
+    - Numa chamada de função, uma nova tabela de variáveis é criada e empilhada junto com o fluxo de execução.
+    - Ao final da função, a memória alocada para função é desempilhada.
+- Atividades
+    - Contruir o Mickey
+    - Colocar variáveis para definir a posição e o tamanho do Mickey
+    - Criar uma função para desenhar o Mickey
+- Para casa
+    - Ler a apostila PPLWARE [LINK](../s01e01_apostilas/boa_c_PPLWARE.pdf)
+    - Se inscrever no FUP is FUN
+    - Semana que vem iniciaremos if-else
+    - Coloque uma casinha dentro de uma função e desenhe duas casinhas.

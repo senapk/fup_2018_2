@@ -1,0 +1,3 @@
+- Revimos os conceitos de variáveis, escopo, operações, entrada e saída, buffer.
+- Faça o exercício da nota.
+- Veja os códigos na pasta de exemplos.
