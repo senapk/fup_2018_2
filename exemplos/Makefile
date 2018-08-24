@@ -1,8 +1,7 @@
 CFLAGS=-Wall -Werror -lm
 
-%: %.c
-	gcc $(CFLAGS) $@.c -o exe_$@
-	./$@
-
 clean:
-	rm -rf exe_*
+	find . -maxdepth 1 -type f -executable -exec rm {} +
+md:
+	markdown-pp readme.pp.md -o Readme.md
+
