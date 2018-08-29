@@ -54,7 +54,7 @@ CFLAGS = -Wall -std=c99 -g
 - Compile seu código e execute
 ```
 $ ls
-main.c
+main.c Makefile
 $ make main
 gcc -Wall -std=c99 -g main.c -o main
 $ ./main
