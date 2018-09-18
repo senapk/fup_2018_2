@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+//imprime no formato [a, b, c]
+void vet_print(int vet[], int size){
+    printf("[");
+    if(size > 0)
+        printf("%d", vet[0]);
+    for(int i = 1; i < size; i++)
+        printf(", %d", vet[i]);
+    printf("]\n");
+}
+
 int main(){
     {
         int vet[10];
@@ -58,6 +68,12 @@ int main(){
             }
         }
         printf("]\n");
+    }
+
+    {
+        int vet[] = {4, -5, 3, -6, 5, 8, -9, 1, -2, -3};
+        int size = sizeof(vet) / sizeof(int);
+        vet_print(vet, size);
     }
     return 0;
 }
