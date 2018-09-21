@@ -9,11 +9,14 @@ int main(){
     char op;
     while(1){
         x_clear(BLACK);
+
         xs_color(GREEN);
         xd_filled_rect(x, y, x + l, y + l);
-        xs_color(BLUE);
+        xs_color(RED);
         xd_filled_rect(mx, my, mx + l, my + l);
+        
         x_save("main");
+
         scanf(" %c", &op);
         if(op == 'd')
             x += l;
@@ -30,6 +33,11 @@ int main(){
             x += largura;
         if(y < 0)
             y += altura;
+
+        if(x == mx && y == my){
+            mx += l;
+            my += l;
+        }
     }
 
     //mx = rand() % (largura / l);
