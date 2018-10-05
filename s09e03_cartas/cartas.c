@@ -3,6 +3,7 @@
 #include <time.h>
 #include <stdbool.h>
 
+typedef enum {FALSE, TRUE} BOOL;
 typedef enum {Ouros, Espadas, Copas, Paus} Naipe;
 //const char * naipe_nomes[] = {"Ouros", "Espadas", "Copas, "Paus"};
 
@@ -142,7 +143,7 @@ int main(){
     
     while(!ganhou(mao, mao_size)){
         int indice;
-        printf("Qual carta voce vai descartar? ");
+        printf("Qual carta voce vai descartar 0-8? Digire S para ordenar");
         scanf("%d", &indice);
         remover(mao, &mao_size, indice);
         transferir_carta(mao, &mao_size, baralho, &baralho_size);
