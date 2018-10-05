@@ -18,6 +18,18 @@ int*  |   p  | 104 - 111
 */
 
 
+/*
+
+    z 300 9
+    x 304 7
+
+*/
+
+int swap(int *a, int *b){
+    int c = *a;
+    *a = *b;
+    *b = c;
+}
 
 
 int main(){
@@ -30,11 +42,23 @@ int main(){
     printf("valor         de p = %p\n",  p);
     printf("indo para  a via p = %d\n", *p);
 
+    /*
+    c 200 30
+    k 204 200
+    y 212 200
+    */
 
-    int c = a;
+    int c = 7;
     int *k = NULL, *y = NULL;
     k = &c;
+    y = k;
+    print("%d", *y);
 
+    *y = 30;
+
+    int z = 7;
+    int x = 9;
+    swap(&z, &x);//9 e 7
 
     return 0;
 }
