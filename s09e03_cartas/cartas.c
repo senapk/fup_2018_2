@@ -5,7 +5,7 @@
 
 typedef enum {FALSE, TRUE} BOOL;
 typedef enum {Ouros, Espadas, Copas, Paus} Naipe;
-//const char * naipe_nomes[] = {"Ouros", "Espadas", "Copas, "Paus"};
+const char * naipe_nomes[] = {"Ouros", "Espadas", "Copas", "Paus"};
 
 //esses valores representam os hexadecimais Unicode que imprimem os simbolos
 const char * naipe_nomes[] = {"\xe2\x99\xa6", "\xe2\x99\xa0", "\xe2\x99\xa5", "\xe2\x99\xa3"};
@@ -15,9 +15,9 @@ const char * naipe_nomes[] = {"\xe2\x99\xa6", "\xe2\x99\xa0", "\xe2\x99\xa5", "\
 typedef struct{
     int valor;
     Naipe naipe;
-}Carta;
+} Carta;
 
-/* void carta_show(Carta carta){
+void carta_show(Carta carta){
     if(carta.valor == 1)
         printf("As");
     else if(carta.valor <= 10)
@@ -37,7 +37,7 @@ typedef struct{
         printf("Espadas");
     else
         printf("Paus");
-} */
+}
 
 
 void embaralhar(Carta baralho[], int size){
