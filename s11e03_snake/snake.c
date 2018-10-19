@@ -63,7 +63,7 @@ int main()
             }
         }
 
-        if(SDL_GetTicks() - timer > 250){ //passou meio segundo
+        if(SDL_GetTicks() - timer > 50){ //passou meio segundo
             timer = SDL_GetTicks(); //reseta tempo
             
             for(int i = gomos - 1; i > 0; i--){
