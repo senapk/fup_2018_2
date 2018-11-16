@@ -30,6 +30,29 @@ Lembre: envie o arquivo seu_nome.zip para o link a seguir até meio dia.
 
 https://www.dropbox.com/request/G5lOPf5lPqA8uRLk9fB4
 
+
+
+
+Se não for fazer a prova agora, pare por aqui e volte a esse arquivo mais tarde. Bye.
+
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+
+
 ## Vetores
 
 ### Grande fila colorida
