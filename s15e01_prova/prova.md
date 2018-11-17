@@ -83,7 +83,7 @@ Entrada:
 <<
 exemplares: -5, -1, 1, 2, 3, 4, 9
 sozinhas: -1, 2, 4, 9
-mais vezes: 2 vezes: -5, 1
+mais vezes: 2 vezes: -5, 1, 3
 ```
 
 # Strings
