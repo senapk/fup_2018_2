@@ -36,7 +36,19 @@ int main(){
     int ganh[vet_size];
     int ganh_size = 0;
     int max = 0;
-    //preenchendo o vetor de exemplares
+
+/*
+    para cada elemento 'elem' no vetor 'vet'
+        'cont' = quantas vezes 'elem' aparece em 'vet'
+            se 'cont' for igual ao maximo
+                se elem nao esta no vetor de ganhadores
+                    adicione elem no vetor de ganhadores
+            senao se 'cont' > max
+                maximo recebo cont
+                esvazie o vetor de ganhadores
+                insira elem no vetor de ganhadores
+*/
+
     for(int i = 0; i < vet_size; i++){
         int qtd = count(vet, vet_size, vet[i]);
         if(qtd == max){
