@@ -1,0 +1,1 @@
+/usr/bin/clang-7 -g  -rdynamic CMakeFiles/vec_lib.dir/vec_lib.c.o  -o vec_lib 

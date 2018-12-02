@@ -1,0 +1,1 @@
+CFLAGS = -Wall -std=gnu99 -g

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tiger/Dropbox/gits/senapk/fup_2018_2/s16e03_matrizes/vec_lib.c
+vector.h
+/home/tiger/Dropbox/gits/senapk/fup_2018_2/s16e03_matrizes/vector.h
+
+/home/tiger/Dropbox/gits/senapk/fup_2018_2/s16e03_matrizes/vector.h
+stdio.h
+-
+vector.h
+/home/tiger/Dropbox/gits/senapk/fup_2018_2/s16e03_matrizes/vector.h
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+

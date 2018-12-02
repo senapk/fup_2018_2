@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/tiger/Dropbox/gits/senapk/fup_2018_2/s16e03_matrizes/build",
+  "command": "/usr/bin/clang-7   -g   -o CMakeFiles/vec_lib.dir/vec_lib.c.o   -c /home/tiger/Dropbox/gits/senapk/fup_2018_2/s16e03_matrizes/vec_lib.c",
+  "file": "/home/tiger/Dropbox/gits/senapk/fup_2018_2/s16e03_matrizes/vec_lib.c"
+}
+]
